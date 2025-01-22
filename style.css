@@ -1,0 +1,32 @@
+/* Estilos básicos para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+input, button {
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+#resultados {
+    margin-top: 20px;
+}
+#reiniciarBtn {
+    display: none; /* El botón de reiniciar estará oculto inicialmente */
+    background-color: grey; /* Color inicial cuando no está resaltado */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+/* Estilo cuando el botón está iluminado */
+#reiniciarBtn.activo {
+    background-color: green; /* Color cuando está iluminado */
+    opacity: 1; /* Mayor visibilidad cuando está activo */
+}
+/* Clase para ocultar elementos */
+.oculto {
+    display: none;
+}
